@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+  margin:0px;  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.color-1{
+    background-color: #1CD1B0;
+    height:38px;
+    font-size: 15px;
+    font-style: normal;
+    padding-top: 10px;
+}
+
+.color-2{
+    background-color:#00669F;
+    height: 101px;
+    font-size: 38px;
+    padding-top: 30px;
+    padding-left: 20px;    
+}
+
+.tarjetas{
+    display:inline-block;
+    padding: 153px 20px;
+
+}
+
+.tarjeta {
+    width: 300px;
+    height: 529px;
+    background-color: #F3F3F3;
+}
+
+.tarjeta .corazon {
+    position: absolute;
+    top: 307px;
+    padding-left: 21px;
+}
+
+.cara {
+    position: absolute;
+    top: 419px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+
+
+}
+
+.tarjeta .texto .titulo {
+    padding-top: 74px;
+    padding-left: 89px;
+    font-size: 30px;
+}
+
+.tarjeta .texto p {
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-right: 17px;
+    font-size: 16px;
+}
+
+.button {
+    background-color: #00669F;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 128px;
+    height: 48px;
+}
+
+footer{
+    padding: 16px;
+    color: white;
+    font-size: 16px;
+    background-color: #00669F;
+}
+
